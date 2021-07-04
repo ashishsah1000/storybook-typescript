@@ -22,7 +22,7 @@ const Upper = ({Psize,Isize,theme}:card)=>{
             </div>
             <div className="upper-details">
                 <Profile url="https://i.picsum.photos/id/19/536/354.jpg?hmac=wKkOuUxCQXaF5ZuA2VcsGln_mOoVneYNq6ElTGtKRrg" Size={Psize} theme={theme} />
-                <Info username="American" text="Manager" background="transparent" />
+                <Info username="Sean Tilin" text="Developer" background="transparent" />
                 <div className="upper-more">
                     <More />    
                 </div>
