@@ -13,5 +13,5 @@ export default{
 const Template : ComponentStory<typeof More> = (args)=><More {...args} />;
 export const MoreElement = Template.bind({});
 MoreElement.args= {
-    text:"hey"
+    text:"..."
 }

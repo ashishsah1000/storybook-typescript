@@ -17,7 +17,7 @@ const Profile = ({Size,theme}:user)=>{
 
     return(
         <div className={`user-image`}>
-            <img className={`user-image-${Size} border-${theme}`} src="https://i.picsum.photos/id/19/536/354.jpg?hmac=wKkOuUxCQXaF5ZuA2VcsGln_mOoVneYNq6ElTGtKRrg" />
+            <img alt="asdf" className={`user-image-${Size} border-${theme}`} src="https://i.picsum.photos/id/19/536/354.jpg?hmac=wKkOuUxCQXaF5ZuA2VcsGln_mOoVneYNq6ElTGtKRrg" />
         </div>
     )
 }

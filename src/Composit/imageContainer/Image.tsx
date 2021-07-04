@@ -3,8 +3,6 @@ import "./Image.css"
 import AtomicImage from "../../atomic/imageContainer/Image";
 import Social from "../../atomic/social/Social";
 import { Sizes } from "../../atomic/profilePic/Profile";
-import Info from "../../atomic/info/Info"
-import Profile from "../../atomic/profilePic/Profile"
 
 type card = {
     size:Sizes
