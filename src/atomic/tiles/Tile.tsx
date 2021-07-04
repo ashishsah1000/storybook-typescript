@@ -8,7 +8,7 @@ export enum themes {
 type data = {
     theme : themes,
     size : string,
-    rest : {}
+    rest? : {}
 }
 const Tile = ({theme,size,...rest}:data)=>{
 

@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+html {
+  font-family: 'Montserrat', sans-serif;
   color: white;
+  font-weight: 300;
+}
+*{
+  margin :0 0;
+  padding: 0 0;
+}
+.large-card{
+  height: 200px;
+  width: 200px;
 }
 
-.App-link {
-  color: #61dafb;
+/* normal defination of colours used in app */
+.primary{
+  background-color: dodgerblue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.danger{
+  background-color: crimson;
+}
+.clicked{
+  background-color: rgb(11, 41, 4);
+}
+.dark{
+  background: rgb(22, 26, 26);
+}
+.light{
+  background: rgb(5, 76, 182);
+}
+.transparent{
+  background: transparent;
+}
+
+
+/* Card sizing layout */
+.card{
+  border-radius: 15px;
+  color:chocolate;
+  box-shadow: 5px 6px 17px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 6px 17px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 6px 17px -2px rgba(0,0,0,0.75);
+    transition: 1s ease;
+    color:white;
+}
+.medium{
+  height: 200px;
+  width: 200px;
+}
+.large{
+  width: 400px;
+  height: 400px;
+}
+.small{
+  width: 120px;
+  height: 120px;
+}
+
+.user-image-small{
+  height: 40px;
+  width: 40px;
+}
+.user-image-medium{
+  height: 100px;
+  width: 100px;
+}
+.user-image-large{
+  height: 150px;
+  width: 150px;
+}
+/* Font color */
+.font-white{
+  color: rgba(222,222,222,.9) !important;
+}
+h4{
+  font-size: 21px;
 }

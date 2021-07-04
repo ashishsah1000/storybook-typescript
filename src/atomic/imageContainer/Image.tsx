@@ -4,15 +4,16 @@ import { EnumType } from "typescript";
 
 type image = {
     url :string,
-    size:string,
-    other : {}
+    size?:string,
+    other? : {}
 }
 
 
 
-const Image = ({url,...other}:image)=>{
+const Image = ({url,size,...other}:image)=>{
+    var background = {background:"url("+url+")",backgroundSize:"cover"}
 return(
-    <div className="card-image"></div>
+    <div className={`card card-image ${size}` } style={background}></div>
 )
 }
 

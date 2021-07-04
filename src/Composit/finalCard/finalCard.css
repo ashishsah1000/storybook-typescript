@@ -1,0 +1,26 @@
+@import url("../../App.css");
+.final-card-medium{
+padding: 30px 30px;
+max-width: 270px;
+cursor: pointer;}
+.back-medium{
+    height: 260px;
+    width: 210px;
+    position: relative;
+    z-index: -1;
+    top:-250px;
+    left:20px;
+    border-radius: 15px;
+    transition: 1s ease;
+}
+.card-upper-layer{
+    z-index: 11;
+    position: relative;
+
+}
+.final-card-medium:hover > .back-medium{
+    top:-275px;
+    left:-15px;
+    width: 230px;
+    height: 280px;;
+}

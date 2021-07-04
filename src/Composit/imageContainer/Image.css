@@ -1,0 +1,19 @@
+.medium >.image-social{
+    background: transparent;
+    position: relative;
+    width: 70px;
+    top:-180px;
+    left:120px;
+    opacity: 0;
+    color: wheat;
+    transform: rotate(-30deg);
+    transform-origin: 0mm;
+    transition: .7s ease;
+}
+ .image-icons{
+    background-color: transparent;
+}
+.image-icons:hover > .image-social  {
+    transform: rotate(0deg);
+    opacity: 1;
+}

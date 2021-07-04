@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Button.css"
 import { useState } from "react";
+import "../../App.css"
 
 type data = {
     title: string,

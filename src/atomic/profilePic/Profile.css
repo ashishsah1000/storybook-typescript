@@ -1,0 +1,10 @@
+@import url("../../App.css");
+.user-image img{ 
+    border-radius: 15px;
+  }
+  .border-dark{
+      border:6px solid rgb(22, 26, 26);;
+  }
+  .border-light{
+    border:6px solid rgb(5, 76, 182);
+  }

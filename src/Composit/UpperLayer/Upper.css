@@ -1,0 +1,13 @@
+.upper-container{
+    display: flex;
+    flex-direction: column;
+}
+.upper-more{
+    color: white;
+    margin-left:20px;
+    margin-top: 10px;
+}
+.upper-details{
+    margin-top:10px;
+    display: flex;
+}
